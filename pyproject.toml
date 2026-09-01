@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-data-pipeline-agent"
+version = "0.1.0"
+description = "Uma pipeline de dados simples para criar e transformar arquivos."
+authors = [""]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12.3"
+pandas = "^3.0.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
